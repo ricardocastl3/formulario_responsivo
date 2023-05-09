@@ -1,0 +1,53 @@
+//Desktops
+@media(max-width: 790px)
+{
+    .head-top{
+        .navbar{
+            .container{
+                padding-top: 2em;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
+//Tablets
+@media(max-width:990px)
+{
+    main{
+        .content{
+            margin: 8em 8em;
+        }
+    }
+}
+
+//Mobile
+@media(max-width: 610px) 
+{
+    //Header
+    .head-top{
+        .navbar{
+            .container{
+                padding-top: 2em;
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                margin: auto 0em;
+                .nav-right{
+                    margin-top: 2em;
+                    flex-direction: column;
+                    align-items: start;
+                    .nav-link{
+                        padding: 1em 0em;
+                    }
+                }
+            }
+        }
+    }
+
+    main{
+        .content{
+            margin: 4em 1em;
+        }
+    }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <header class="head-top">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-left">
+                    <a>Super<strong>Form</strong></a>
+                </div>
+                <div class="nav-right">
+                    <a href="" class="nav-link">
+                        <img src="assets/home.svg" alt="" srcset="">
+                        Página Inicial
+                    </a>
+                    <a href="" class="nav-link">
+                        <img src="assets/about.svg" alt="">
+                        Sobre nós
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <div class="alert">
+                <h6 id="message-error"></h6>
+                <h6 id="message-success"></h6>
+            </div>
+            <div class="info">
+                <h1>Formulário de Cadastro!</h1>
+                <h3>É rápido e fácil!</h3>
+            </div>
+            <form action="" id="form">
+                <div class="form-group">
+                    <label style="margin: auto 0.2em;display: flex; align-items: center; justify-content: space-between;">
+                        Primeiro nome
+                        <img src="assets/user.png" alt="" width="20" height="20">
+                    </label>
+                    <input type="text" required placeholder="Primeiro nome...">
+                </div>
+                <div class="form-group">
+                    <label style="margin: auto 0.2em;display: flex; align-items: center; justify-content: space-between;">
+                        Sobrenome
+                        <img src="assets/user.png" alt="" width="20" height="20">
+                    </label>
+                    <input type="text" required placeholder="Sobrenome...">
+                </div>
+                <div class="form-group">
+                    <label style="margin: auto 0.2em;display: flex; align-items: center; justify-content: space-between;">
+                        E-mail
+                        <img src="assets/gmail.svg" alt="" width="20" height="20">
+                    </label>
+                    <input type="text" required placeholder="E-mail...">
+                </div>
+                <div class="form-group">
+                    <label style="margin: auto 0.2em;display: flex; align-items: center; justify-content: space-between;">
+                        Palavra-passe
+                        <img src="assets/passwd.png" alt="" width="20" height="20">
+                    </label>
+                    <input type="password" required id="pass1" placeholder="Palavra-passe...">
+                </div>
+                <div class="form-group">
+                    <label style="margin: auto 0.2em;display: flex; align-items: center; justify-content: space-between;">
+                        Confirmar palavra-passe
+                        <img src="assets/passwd.png" alt="" width="20" height="20">
+                    </label>
+                    <input type="password" required id="pass2" placeholder="Confirmação da palavra-passe...">
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="" id="termCheck" required>
+                    <label for="termCheck">Concordar com os nossos termos e condições</label>  
+                </div>
+                <div class="form-group">
+                    <button type="submit" id="btn-register">
+                        <img src="assets/arrow_save.png" alt="">
+                        Registrar-se
+                    </button>
+                </div>
+            </form>
+        </div>
+    </main>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
